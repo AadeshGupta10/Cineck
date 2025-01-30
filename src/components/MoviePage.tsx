@@ -36,8 +36,6 @@ const MoviePage = () => {
 
                 await updateSearchCount(data.title, { "id": data.id, "poster_path": data.poster_path })
 
-                console.log(data)
-
                 return data;
 
             } catch (error) {
