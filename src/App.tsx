@@ -61,7 +61,7 @@ const App = () => {
   })
 
   useEffect(()=>{
-    setMaxPages(movieList.total_pages)
+    movieList && setMaxPages(movieList.total_pages)
   },[movieList])
 
   const { data: Trending, isPending: TrendingPending } = useQuery({
