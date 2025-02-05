@@ -153,7 +153,7 @@ const App = () => {
           color="primary"
           disabled={MoviePending}
           onChange={(_, value) => setCurrentPage(value)}
-          className="mx-auto bg-[#c4c1c77c] w-fit py-2 px-10 rounded-md" />
+          className="mx-auto bg-[#c4c1c77c] w-fit p-2 rounded-md shrink-0" />
       </div>
     </div>
   )

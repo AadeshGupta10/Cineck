@@ -16,7 +16,7 @@ const TrendingCard = ({ index, id, poster_url, title }: TrendingCardProp) => {
             <img
                 src={poster_url}
                 alt={title}
-                className="w-[127px] h-[163px] rounded-lg object-cover -ml-6.5 mb-5" />
+                className="w-[127px] h-[163px] rounded-lg object-cover object-center -ml-6.5 mb-5" />
         </Link>
     )
 }
