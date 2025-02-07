@@ -104,7 +104,7 @@ const App = () => {
             !TrendingPending && ((Trending && Trending?.length > 0) &&
               <>
                 <p className="text-lg md:text-xl">Trending Movies</p>
-                <div className="flex justify-center lg:justify-between items-center flex-wrap gap-7">
+                <div className="flex justify-center lg:justify-start items-center flex-wrap gap-7">
                   {Trending.map((movie, index) => (
                     <TrendingCard
                       key={movie.$id}
